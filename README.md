@@ -5,6 +5,11 @@
 - 20220207 김형태
 
 ## Instruction
+0. Install git-lfs and clone with lfs
+```
+sudo apt install git-lfs
+git lfs clone https://github.com/JaesukLim/CS492_Submission
+```
 1. Install the dependencies
 ```
 pip install -r requirements.txt
@@ -23,7 +28,7 @@ If you want to train with different setting, use
 ```
 ./pretrained/results/samples_{CATEGORY}/result.json
 ```
-You can find FID and KID evaluation result in the directory below
+You can find FID and KID evaluation result in the directory below if you used ```./run.sh```
 ```
 ./stroke_generation/results/diffusion-ddpm-{CATEGORY}/samples_{CATEGORY}/result.json
 ```
