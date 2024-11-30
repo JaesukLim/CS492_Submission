@@ -1,0 +1,4 @@
+stroke_generation/results
+stroke_generation/__pycache__
+.venv
+.idea

@@ -1,0 +1,11 @@
+clean-fid
+ndjson
+numpy
+matplotlib
+pillow
+torch
+torchvision
+tqdm
+dotmap
+pytorch-lightning
+scikit-learn
